@@ -243,25 +243,26 @@ class MailParser:
 
 
 if __name__ == '__main__':
-    from email.parser import Parser
-    from email.feedparser import FeedParser
-
-    mail = Mail()
-    mail.conn("mail.billjc.com", 110, False)
-    mail.login("", "")
-    mail_list = list(mail.list()[1])
-    print mail_list[1].split(" ")
-    print mail_list
-
-    m = "\n".join(mail.get("1")[1])
-    parser = Parser()
-    result = parser.parsestr(m)
-    print result
-
-    fd = FeedParser()
-    result = fd.feed(m)
+    pass
+    # from email.parser import Parser
+    # from email.feedparser import FeedParser
+    #
+    # mail = Mail()
+    # mail.conn("mail.billjc.com", 110, False)
+    # mail.login("", "")
+    # mail_list = list(mail.list()[1])
+    # print mail_list[1].split(" ")
+    # print mail_list
+    #
+    # m = "\n".join(mail.get("1")[1])
+    # parser = Parser()
+    # result = parser.parsestr(m)
+    # print result
+    #
+    # fd = FeedParser()
+    # result = fd.feed(m)
+    # # result = fd.close()
+    # print result
+    # fd.feed("\n".join(mail.get("2")[1]))
     # result = fd.close()
-    print result
-    fd.feed("\n".join(mail.get("2")[1]))
-    result = fd.close()
-    print result
+    # print result
