@@ -1,8 +1,8 @@
 # AutomaticAnswer
-## This project is prepared as a collection of automated tools
+
 ## 准备作一个自动化小工具的合集
 
- 虽然现在是空的但只要有空我就会慢慢增加模块
+ 虽然现在还没什么头绪，但只要有空我就会慢慢增加模块
  已经计划好的有：
 * Email工具
 * 图像批量处理工具
